@@ -1,0 +1,203 @@
+
+.header{
+    padding: 20px 0;
+    background: #FFFFFF;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 160px;
+}
+
+.menu{
+    display: flex;
+    align-item: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 30px;
+}
+html, body, ul{
+  padding: 0;
+  margin: 0;
+}
+.menu-item{
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    color: #828282;
+    margin-bottom: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.line{
+    border: 1px solid #828282;
+}
+.menu-item:hover{
+    color: #070707;
+    transition: 0.3s;
+    font-family: 'Ubuntu';
+}
+.main-container-wrapper{
+    height: 100%;
+}
+.texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.name{
+    font-family: 'Ubuntu';
+    font-size: 40px;
+    line-height: 50px;
+    color: #070707;
+}
+
+.text{
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    text-align: center;
+}
+
+.photo{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.about-me-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title-text{
+    display: flex;
+    justify-content: center;
+}
+.about-me{
+    background: #F6F6F6;
+    padding: 50px 0;
+}
+.skills-container-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.skills-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.skill-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-text{
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+.stars-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.stars-pic{
+    height: 90px;
+    width: 90px;
+}
+.portfolio{
+    background: #F6F6F6;
+    padding: 50px 0;
+}
+.portfolio-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.portfolio-link{
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.button{
+    background: #070707;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 58px;
+    text-decoration: none;
+    margin-bottom: 50px;
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding: 0 0 0 25px;
+}
+.media{
+    height: 20px;
+    width: 20px;
+    margin-right: 50px;
+}
+@media screen and (max-width: 650px){
+    .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 29px;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+}
+    .name{
+    font-family: 'Ubuntu';
+    font-size: 25px;
+    line-height: 30px;
+    color: #070707;
+}
+    .skills-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+}
+    .text{
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    line-height: 18px;
+    color: #070707;
+    text-align: center;
+}
+}
+@media screen and (max-width: 375px){
+    .skills-items{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 50px;
+}
+}
